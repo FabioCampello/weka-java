@@ -1,7 +1,7 @@
 @relation vendas
   
 @attribute sexo {F, M}
-@attribute idade {20-39, >=40}
+@attribute idade {18-19, 20-39, >=40}
 @attribute filhos {Nao, Sim}
 @attribute gasta_muito {Nao,Sim}
   
@@ -21,3 +21,7 @@ F,20-39,Sim,Nao
 F,20-39,Sim,Nao
 F,20-39,Sim,Sim
 F,20-39,Nao,Sim
+M,18-19,Nao,Sim
+F,18-19,Sim,Nao
+M,>=40,Nao,Sim
+F,>=40,Nao,Sim
